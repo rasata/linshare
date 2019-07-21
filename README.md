@@ -49,7 +49,7 @@ You can clone the whole project using the following commands :
 
 ### Main repository:
 
-* git clone https://github.com/linagora/linshare.git
+* git clone https://github.com/rasata/linshare.git
 
 NB: You can download all components using Maven:
 
@@ -57,18 +57,18 @@ $ mvn dependency:copy-dependencies -DoutputDirectory='linshare'
 
 ### LinShare server components:
 
-* git clone https://github.com/linagora/linshare-core.git
-* git clone https://github.com/linagora/linshare-ui-admin.git
-* git clone https://github.com/linagora/linshare-ui-user.git
-* git clone https://github.com/linagora/linshare-ui-upload-request.git
-* git clone https://github.com/linagora/linshare-ui-upload-proposition.git
-* git clone https://github.com/linagora/linshare-upload-proposition.git
+* git clone https://github.com/rasata/linshare-core.git
+* git clone https://github.com/rasata/linshare-ui-admin.git
+* git clone https://github.com/rasata/linshare-ui-user.git
+* git clone https://github.com/rasata/linshare-ui-upload-request.git
+* git clone https://github.com/rasata/linshare-ui-upload-proposition.git
+* git clone https://github.com/rasata/linshare-upload-proposition.git
 
 ### LinShare client components:
 
-* git clone https://github.com/linagora/linshare-plugin-thunderbird
+* git clone https://github.com/rasata/linshare-plugin-thunderbird
 
 ### For tests and demonstration:
 
-* git clone https://github.com/linagora/linshare-docker
+* git clone https://github.com/rasata/linshare-docker
 

@@ -1,16 +1,24 @@
 # LinShare
 
-## Description
+![LinShare](https://optim.tildacdn.net/tild3962-3433-4761-b463-636136316436/-/format/webp/linshare-platforms_1.png)
+
+
+## License
+Linshare is released under the terms of the license GNU AGPLv3. For more information please see [here](LICENSE.md)
+
+
+## Description    
+
+ ![LinShare](https://static.tildacdn.net/tild3134-3337-4764-a439-393563343934/Group_1321315060.svg)
 
 Specially designed to secure paperless file sharings within companies that put
 privacy and traceability in the heart of their problems of exchange, LinShare
-provides a simple solution completely intuitive.
-
+provides a simple solution completely intuitive.                                           
 * Linshare allows employees to upload files into their space
 * Linshare can share files with internal or external collaborators
 * Linshare offers several features to securely exchange
 
-More information on http://www.linshare.org/
+More information on http://linshare.app/
 
 ## Live demo:
 
@@ -18,17 +26,24 @@ A Live demo of LinShare is available at https://demo.linshare.org/.
 This demo reflects the latest developments done on LinShare, it will be
 reseted and updated on regulary basis.
 
-This instance of LinShare is set up with some test users, from user1 to user7 :
- * user1@linshare.org : password1
- * user2@linshare.org : password2
- * user3@linshare.org : password3
- * user4@linshare.org : password4
- * user5@linshare.org : password5
- * user6@linshare.org : password6
- * user7@linshare.org : password7
+This instance of LinShare is set up with some test users:
+- abbey.curry@linshare.org : secret
+- amy.wolsh@linshare.org : secret
+- anderson.waxman@linshare.org : secret
+- cornell.able@linshare.org : secret
+- dawson.waterfield@linshare.org : secret
+- felton.gumper@linshare.org : secret
+- grant.big@linshare.org : secret
+- nick.derbies@linshare.org : secret
+- peter.wilson@linshare.org : secret
+- walker.mccallister@linshare.org : secret
 
-If you want to share with some external users, use these two email addresses *external1@linshare.org* and *external2@linshare.org*.
-External users are just an email address without an account. You can also use these two emails to create guests.
+
+If you want to share with some external users, use these five email addresses *external1@linshare.org* to *external5@linshare.org*.
+External users are just an email address without a LinShare account.
+
+We also provide  guest1@linshare.org to guest5@linshare.org emails adresses,
+who are also external accounts but you can use them to create guests.
 
 NB: You won't able to send or receive emails if your email address is not @linshare.org.
 
@@ -36,10 +51,14 @@ In order to see emails sent by LinShare, we also put at your disposal a webmail
 available at *https://demo-webmail.linshare.org*.
 
 Webmail passwords :
- * user1@linshare.org : password1
+ * abbey.curry@linshare.org : secret
  * ...
  * external1@linshare.org : password1
- * external2@linshare.org : password2
+ * ...
+ * external5@linshare.org : password5
+ * guest1@linshare.org : password1
+ * ...
+ * guest5@linshare.org : password5
 
 
 ## All repositories
@@ -71,4 +90,8 @@ $ mvn dependency:copy-dependencies -DoutputDirectory='linshare'
 ### For tests and demonstration:
 
 * git clone https://github.com/rasata/linshare-docker
+
+### Required versions of LinShare's dependencies:
+
+- You can find the required versions of LinShare's dependencies [here](documentation/EN/installation/requirements.md)
 
